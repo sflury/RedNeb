@@ -4,8 +4,10 @@ Calculate nebular extinction from hydrogen Balmer series emission lines,
 accounting for temperature and density of the gas. Stellar absorption 
 corrections are optionally included in the solution.
 
+While this code is provided publicly, I request that any use thereof be 
+cited in any publications in which this code is used. 
 The publication which originally introduced and used this code is
-Flury et al. 2022 ApJS 260, 1. Please cite this reference, as well as
+Flury et al. 2022 ApJS 260, 1. Please also cite any relevant
 relevant extinction laws (e.g., Cardelli et al. 1989. ApJ 345, 245),
 the PyNeb package (Luridiana et al. 2015. A&A 573, 42), and, if applicable,
 the stellar absorption formalism (Izotov et al. 1994. ApJ 435, 647)
@@ -35,6 +37,7 @@ print(f'E(B-V) with star absn: {ebv_fit:.3f}')
 ```
 
 ## BibTeX reference (as provided by NASA/ADS)
+Flury et al. 2022 ApJS 260, 1
 ```
 @ARTICLE{2022ApJS..260....1F,
        author = {{Flury}, Sophia R. and {Jaskot}, Anne E. and {Ferguson}, Harry C. and {Worseck}, G{\'a}bor and {Makan}, Kirill and {Chisholm}, John and {Saldana-Lopez}, Alberto and {Schaerer}, Daniel and {McCandliss}, Stephan and {Wang}, Bingjie and {Ford}, N.~M. and {Heckman}, Timothy and {Ji}, Zhiyuan and {Giavalisco}, Mauro and {Amorin}, Ricardo and {Atek}, Hakim and {Blaizot}, Jeremy and {Borthakur}, Sanchayeeta and {Carr}, Cody and {Castellano}, Marco and {Cristiani}, Stefano and {De Barros}, Stephane and {Dickinson}, Mark and {Finkelstein}, Steven L. and {Fleming}, Brian and {Fontanot}, Fabio and {Garel}, Thibault and {Grazian}, Andrea and {Hayes}, Matthew and {Henry}, Alaina and {Mauerhofer}, Valentin and {Micheva}, Genoveva and {Oey}, M.~S. and {Ostlin}, Goran and {Papovich}, Casey and {Pentericci}, Laura and {Ravindranath}, Swara and {Rosdahl}, Joakim and {Rutkowski}, Michael and {Santini}, Paola and {Scarlata}, Claudia and {Teplitz}, Harry and {Thuan}, Trinh and {Trebitsch}, Maxime and {Vanzella}, Eros and {Verhamme}, Anne and {Xu}, Xinfeng},
