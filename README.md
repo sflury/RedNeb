@@ -1,4 +1,4 @@
-# redneb
+# RedNeb
 
 Calculate nebular extinction from hydrogen Balmer series emission lines, 
 accounting for temperature and density of the gas. Stellar absorption 
@@ -15,7 +15,7 @@ the stellar absorption formalism (Izotov et al. 1994. ApJ 435, 647)
 ## Example usage
 
 ``` python
-from redneb import *
+from RedNeb import *
 # example Balmer wavelengths
 w = np.array([6563,4861,4341,4102])
 # example fluxes
